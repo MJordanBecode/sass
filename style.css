@@ -1,0 +1,79 @@
+/* 
+This is the primary HTML style
+*/
+article {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 10%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+article header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+article header #photo {
+  background-color: rgb(151, 10, 10);
+  position: absolute;
+  font-size: 1.2em;
+  color: white;
+  margin-top: 12.7%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  padding-right: 0.2%;
+  border-color: rgba(243, 6, 6, 0.63);
+  border-style: solid;
+  border-width: 4px;
+}
+article header #rond {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 4%;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  -webkit-clip-path: ellipse(40% 45%);
+          clip-path: ellipse(40% 45%);
+  align-items: center;
+  align-content: baseline;
+  margin-left: 15.7%;
+  margin-top: -6%;
+}
+article header #rond #pos {
+  margin-bottom: 0;
+}
+article header #rond #aug-pos {
+  margin-top: 0;
+}
+article header img {
+  width: 100%;
+}
+article main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+article footer {
+  display: flex;
+  margin-top: 25%;
+  align-items: center;
+}
+article footer p {
+  display: inline-flex;
+  padding: 0;
+}
+article #clock {
+  display: flex;
+  align-items: center;
+}
+article #comments {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}/*# sourceMappingURL=style.css.map */

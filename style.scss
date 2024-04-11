@@ -1,0 +1,118 @@
+// // this is a Sass silent comment. 
+// // we don't need to show the world all this instructional stuff
+// // sometimes notes are just for the developers
+
+/* 
+This is the primary HTML style
+*/ 
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align : {
+        items: center ;
+        // content: center;;
+    }
+    margin : {
+        left: 40%;
+        top: 10%;
+    }
+    border : {
+        color : rgb(0, 0, 0);
+        style : solid;
+
+    }
+
+    span:hover{
+        
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        #photo{
+            background-color: rgb(151, 10, 10);
+            position: absolute;
+            font-size: 1.2em;
+            color: white;
+            margin : {
+                top: 12.7%;
+            }
+            padding : {
+                top: 0.2%;
+                bottom: 0.2%;
+                right: 0.2%;
+            }
+
+            border : {
+                color : rgba(243, 6, 6, 0.63);
+                style : solid;
+                width: 4px;
+            }
+        }
+        #rond{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 4%;
+            color: rgb(255, 255, 255);
+           background-color: red;
+           clip-path:ellipse(40% 45%);
+           align-items: center;
+            align-content: baseline;
+           margin : {
+            left: 15.7%;
+            top: -6%;
+           }
+
+           #pos{
+            margin-bottom: 0;
+           }
+
+           #aug-pos{
+            margin-top: 0;
+           }
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin : {
+            left: 5%;
+            top : 6%
+        }
+    }
+    footer{
+        display: flex;
+        margin-top: 25%;
+        align-items: center;
+
+    
+
+        p{
+            display: inline-flex;
+            padding: 0;
+        }
+    }
+
+    #clock{
+        display: flex;
+        align-items: center;
+
+    }
+
+    #comments{
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+}
+
